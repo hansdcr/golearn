@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"golearn/ArrayList"
-
+	"golearn/StackArray"
 )
 
 func main1() {
@@ -54,7 +54,7 @@ func main4 () {
 	fmt.Println(b)
 }
 
-func main() {
+func main5() {
 	list := ArrayList.NewArrayList()
 	list.Append("a1")
 	list.Append("a3")
@@ -66,4 +66,32 @@ func main() {
 		item, _ := it.Next()
 		fmt.Println(item)
 	}
+}
+
+func main6 () {
+	mystack := StackArray.NewStack()
+	mystack.Push(1)
+	mystack.Push(2)
+	mystack.Push(3)
+	mystack.Push(4)
+
+	fmt.Println(mystack.Pop())
+	fmt.Println(mystack.Pop())
+	fmt.Println(mystack.Pop())
+	fmt.Println(mystack.Pop())
+	// fmt.Println(mystack.Pop())
+}
+
+func main () {
+	mystack := ArrayList.NewArrayStack()
+	mystack.Push(1)
+	mystack.Push(2)
+	mystack.Push(3)
+	mystack.Push(5)
+
+	fmt.Println(mystack.Pop())
+	fmt.Println(mystack.Pop())
+	fmt.Println(mystack.Pop())
+	fmt.Println(mystack.Pop())
+	// fmt.Println(mystack.Pop())
 }

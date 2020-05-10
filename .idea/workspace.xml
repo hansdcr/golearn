@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e8f7b2e-b3d7-48f8-8d05-b476e4f68500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/ArrayListIterator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList/ArrayList.go" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/ArrayList.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArrayList/ArrayListIteratorStack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArrayList/ArrayListStack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StackArray/StackArray.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="257">
+              <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
               <folding>
                 <element signature="e#14#52#0" expanded="true" />
               </folding>
@@ -28,19 +29,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/fmt/print.go">
+        <entry file="file://$PROJECT_DIR$/ArrayList/ArrayListIterator.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="272" selection-start-line="272" selection-end-line="272" />
+            <state relative-caret-position="156">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ArrayList/ArrayListStack.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArrayList/ArrayListIteratorStack.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ArrayList/ArrayList.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="169">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StackArray/StackArray.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="61" column="12" lean-forward="true" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -57,6 +85,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>copy</find>
+      <find>currentsize</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -68,8 +97,11 @@
       <list>
         <option value="$PROJECT_DIR$/ArrayList/ArrayListItrator.go" />
         <option value="$PROJECT_DIR$/ArrayList/ArrayListIterator.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/ArrayList/ArrayList.go" />
+        <option value="$PROJECT_DIR$/StackArray/StackArray.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/ArrayList/ArrayListIteratorStack.go" />
+        <option value="$PROJECT_DIR$/ArrayList/ArrayListStack.go" />
       </list>
     </option>
   </component>
@@ -93,6 +125,11 @@
               <item name="golearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="golearn" type="462c0819:PsiDirectoryNode" />
               <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golearn" type="462c0819:PsiDirectoryNode" />
+              <item name="StackArray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,13 +188,13 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.260745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.260745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39975846" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4142512" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
@@ -174,18 +211,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/main.go</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/go.mod">
@@ -221,15 +246,29 @@
     </entry>
     <entry file="file:///usr/local/go/src/fmt/print.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="272" selection-start-line="272" selection-end-line="272" />
+        <state relative-caret-position="199">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StackArray/StackArray.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="61" column="12" lean-forward="true" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayList/ArrayList.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="257">
+          <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
           <folding>
             <element signature="e#14#52#0" expanded="true" />
           </folding>
@@ -238,15 +277,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ArrayList/ArrayListIterator.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="156">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArrayList/ArrayList.go">
+    <entry file="file://$PROJECT_DIR$/ArrayList/ArrayListIteratorStack.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayList/ArrayListStack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
         </state>
       </provider>
     </entry>
