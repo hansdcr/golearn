@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"test/ArrayList"
+	"golearn/ArrayList"
+
 )
 
 func main1() {
@@ -22,7 +23,7 @@ func main2() {
 	fmt.Println(list)
 }
 
-func main() {
+func main3() {
 	list := ArrayList.NewArrayList()
 	list.Append("a1")
 	list.Append("b2")
@@ -36,4 +37,33 @@ func main() {
 	}
 
 
+}
+
+
+func main4 () {
+	a :=[]int{0,1,2,3,4,5}
+	// var b []int
+	b :=make([]int, 7)
+	copy(b, a)
+	fmt.Println(b)
+
+	for i :=len(a); i>2; i-- {
+		b[i] = b[i-1]
+	}
+	b[3]=10
+	fmt.Println(b)
+}
+
+func main() {
+	list := ArrayList.NewArrayList()
+	list.Append("a1")
+	list.Append("a3")
+	list.Append("a4")
+	list.Append("a4")
+
+	fmt.Println(list)
+	for it := list.Iterator(); it.HasNext(); {
+		item, _ := it.Next()
+		fmt.Println(item)
+	}
 }

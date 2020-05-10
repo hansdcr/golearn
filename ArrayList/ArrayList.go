@@ -14,6 +14,7 @@ type List interface {
 	Delete(index int) error                     // 删除一个值
 	Clear()                                     // 清空数组
 	String() string                             // 打印数组
+	Iterator() Iterator
 }
 
 type ArrayList struct {
@@ -38,7 +39,7 @@ func (list *ArrayList) Size() int {
 }
 
 func (list *ArrayList) Get(index int) (interface{}, error) {
-	if index < list.TheSize || index >= list.TheSize {
+	if index < 0 || index >= list.TheSize {
 		return nil, errors.New("索引越界")
 	}
 
