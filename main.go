@@ -82,7 +82,7 @@ func main6 () {
 	// fmt.Println(mystack.Pop())
 }
 
-func main () {
+func main7 () {
 	mystack := ArrayList.NewArrayStack()
 	mystack.Push(1)
 	mystack.Push(2)
@@ -94,4 +94,23 @@ func main () {
 	fmt.Println(mystack.Pop())
 	fmt.Println(mystack.Pop())
 	// fmt.Println(mystack.Pop())
+}
+
+func main () {
+	mystack := ArrayList.NewArrayListStackX()
+	mystack.Push(1)
+	mystack.Push(2)
+	mystack.Push(3)
+	mystack.Push(5)
+
+	//fmt.Println(mystack.Pop())
+	//fmt.Println(mystack.Pop())
+	//fmt.Println(mystack.Pop())
+	//fmt.Println(mystack.Pop())
+	// fmt.Println(mystack.Pop())
+
+	for it :=mystack.Myit; it.HasNext(); {
+		item,_ :=it.Next()
+		fmt.Println(item)
+	}
 }
