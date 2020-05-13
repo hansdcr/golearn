@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"golearn/ArrayList"
 	"golearn/StackArray"
+	"golearn/algorithm"
 )
 
 func main1() {
@@ -96,21 +97,21 @@ func main7 () {
 	// fmt.Println(mystack.Pop())
 }
 
-func main () {
+func main8 () {
 	mystack := ArrayList.NewArrayListStackX()
 	mystack.Push(1)
 	mystack.Push(2)
 	mystack.Push(3)
 	mystack.Push(5)
 
-	//fmt.Println(mystack.Pop())
-	//fmt.Println(mystack.Pop())
-	//fmt.Println(mystack.Pop())
-	//fmt.Println(mystack.Pop())
-	// fmt.Println(mystack.Pop())
-
 	for it :=mystack.Myit; it.HasNext(); {
 		item,_ :=it.Next()
 		fmt.Println(item)
 	}
+}
+
+
+func main () {
+	last :=algorithm.MyRecursion(4)
+	fmt.Println(last)
 }
