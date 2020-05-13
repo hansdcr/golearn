@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"golearn/ArrayList"
 	"golearn/StackArray"
-	"golearn/algorithm"
+	"golearn/Algorithm"
 )
 
 func main1() {
@@ -112,6 +112,6 @@ func main8 () {
 
 
 func main () {
-	last :=algorithm.MyRecursion(4)
+	last := Algorithm.MyRecursion(5)
 	fmt.Println(last)
 }

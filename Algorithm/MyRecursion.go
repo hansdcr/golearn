@@ -1,4 +1,4 @@
-package algorithm
+package Algorithm
 
 import "golearn/ArrayList"
 
