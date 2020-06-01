@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"golearn/Algorithm"
 	"golearn/ArrayList"
 	"golearn/StackArray"
-	"golearn/Algorithm"
 )
 
 func main1() {
@@ -111,7 +111,12 @@ func main8 () {
 }
 
 
-func main () {
+func main9 () {
 	last := Algorithm.MyRecursion(5)
 	fmt.Println(last)
+}
+
+func main () {
+	path :="/Users/11091752/Desktop/2020年文档整理"
+	Algorithm.FileRecursion(path)
 }
