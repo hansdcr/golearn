@@ -33,5 +33,3 @@ func GetAll(path string, files []string, level int) ([]string, error){
 
 	return files, nil
 }
-
-

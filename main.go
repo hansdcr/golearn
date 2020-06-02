@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"golearn/Algorithm"
 	"golearn/ArrayList"
+	"golearn/Queue"
 	"golearn/StackArray"
 )
 
@@ -121,11 +122,23 @@ func main11 () {
 	Algorithm.FileRecursion(path)
 }
 
-func main () {
+func main12 () {
 	path :="/Users/11091752/Desktop/2020年文档整理"
 	files :=[]string{}
 	files, _ = Algorithm.GetAll(path, files, 1)
 	for i:=0;i<len(files);i++ {
 		fmt.Println(files[i])
 	}
+}
+
+func main () {
+	myq := Queue.NewQueue()
+	myq.EnQueue(1)
+	myq.EnQueue(2)
+	myq.EnQueue(3)
+	myq.EnQueue(4)
+	fmt.Println(myq.DeQueue())
+	fmt.Println(myq.DeQueue())
+	fmt.Println(myq.DeQueue())
+	fmt.Println(myq.DeQueue())
 }
