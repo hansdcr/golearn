@@ -116,7 +116,16 @@ func main9 () {
 	fmt.Println(last)
 }
 
-func main () {
+func main11 () {
 	path :="/Users/11091752/Desktop/2020年文档整理"
 	Algorithm.FileRecursion(path)
+}
+
+func main () {
+	path :="/Users/11091752/Desktop/2020年文档整理"
+	files :=[]string{}
+	files, _ = Algorithm.GetAll(path, files, 1)
+	for i:=0;i<len(files);i++ {
+		fmt.Println(files[i])
+	}
 }
