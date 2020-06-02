@@ -131,7 +131,7 @@ func main12 () {
 	}
 }
 
-func main () {
+func main13 () {
 	myq := Queue.NewQueue()
 	myq.EnQueue(1)
 	myq.EnQueue(2)
@@ -141,4 +141,9 @@ func main () {
 	fmt.Println(myq.DeQueue())
 	fmt.Println(myq.DeQueue())
 	fmt.Println(myq.DeQueue())
+}
+
+func main () {
+	path :="/Users/11091752/Desktop/2020年文档整理"
+	Algorithm.GetAllX(path)
 }
